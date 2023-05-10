@@ -1,3 +1,6 @@
+## Deployment Link
+https://grand-tarsier-842e30.netlify.app/homepage
+
 ## Description
 Myntra is a major Indian fashion e-commerce company. It is a one-stop shop for all your fashion and lifestyle needs.
 This is an individual project built in 5 days.
