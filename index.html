@@ -1208,7 +1208,7 @@
             alt="error">
         <div id="main2">
             <h3>Login <span> or </span> Signup</h3> <br />
-            <input id="mblInput" type="text" maxlength="10" placeholder="+91 | Mobile Number"><br />
+            <!-- <input id="mblInput" type="text" maxlength="10" placeholder="+91 | Mobile Number"><br /> -->
 
             <p>By continuing, I agree to the <a href="https://www.myntra.com/termsofuse"> Terms of Use</a><a
                     href="https://www.myntra.com/privacypolicy"> <span>&</span> Privacy Policy</a> </p>
@@ -1225,17 +1225,17 @@
     signuparr = JSON.parse(localStorage.getItem("loginorsignupdata")) || []
     console.log(signuparr)
     function signup() {
-        userdata = {
-            mobilenumber: document.querySelector("#mblInput").value,
-        }
-        if (checkmobile(userdata.mobilenumber)) {
-            localStorage.setItem("loginorsignupdata", JSON.stringify(signuparr))
-            window.location.href = "verify with otp.html"
-        } else {
-            window.location.href = "verify withotp1.html"
-        }
+        // userdata = {
+        //     mobilenumber: document.querySelector("#mblInput").value,
+        // }
+        // if (checkmobile(userdata.mobilenumber)) {
+        //     localStorage.setItem("loginorsignupdata", JSON.stringify(signuparr))
+        //     window.location.href = "verify with otp.html"
+        // } else {
+        //     window.location.href = "verify withotp1.html"
+        // }
 
-
+        window.location.href = "complete signup.html"
 
     }
     function checkmobile(MOBILE) {
