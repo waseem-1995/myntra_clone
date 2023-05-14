@@ -39,10 +39,9 @@ document.querySelector(".cardotpBtn").addEventListener("click", (event) => {
    if (cardNumber == "" || cardName == "" || cardExp == "" || cardCVV == "") {
       alert("Kindly fill all card details");
    } else if (cardOtpBtn.value == "Send OTP") {
-      cardOtpBtn.value = "Verify OTP";
-      alert("Enter Random OTP and click on Verify")
+      cardOtpBtn.value = "Varify OTP";
       document.querySelector(".cardOTP").style.display = "block";
-   } else if (cardOtpBtn.value == "Verify OTP") {
+   } else if (cardOtpBtn.value == "Varify OTP") {
       document.querySelector(".cardOTP").style.display = "none";
       cardOtpBtn.style.display = "none";
       document.querySelector(".OTPVerificationMsg").style.display = "block";
@@ -54,12 +53,12 @@ document.querySelector(".order-btn").addEventListener("click", (event) => {
    let payMsg = document.querySelector(".PaymentVerificationMsg");
    payMsg.style.display = "block";
    setTimeout(() => {
-      payMsg.innerText = "Payment Verification Successfull. You will redirect to Home Page...";
+      payMsg.innerText = "Payment Varification Successfull. You will redirect to Home Page...";
       localStorage.removeItem("orderData");
       localStorage.removeItem("cartItems");
    }, 1500);
 
    setTimeout(() => {
-      window.location.href = "index.html";
+      window.location.href = "HomePage.html";
    }, 3000);
 });
