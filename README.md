@@ -1,5 +1,5 @@
 ## Deployment Link
-https://waseem-1995.github.io/myntra_clone/
+https://deluxe-cheesecake-8c6af7.netlify.app/
 
 ## Description
 Myntra is a major Indian fashion e-commerce company. It is a one-stop shop for all your fashion and lifestyle needs.
