@@ -321,8 +321,8 @@ function deleteItem(ind) {
 
 document.querySelector(".order-btn").addEventListener("click", () => {
    let orderData = {
-      user_name: "Sanjay",
-      user_id: "8237202186",
+      user_name: "waseem",
+      user_id: "7505939288",
       original_amt: orignalAmt,
       actual_amt: actualAmt,
       coupon_amt: couponAmt,
@@ -334,5 +334,5 @@ document.querySelector(".order-btn").addEventListener("click", () => {
    allOrderData.push(orderData);
    console.log(allOrderData);
    localStorage.setItem("orderData", JSON.stringify(allOrderData));
-   window.location.href = "address.html";
+   window.location.href = "continue_Login.html";
 });
